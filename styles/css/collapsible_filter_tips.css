@@ -1,0 +1,36 @@
+/* line 1, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper {
+  border: 1px solid #ddd;
+  margin: 1.25em 0;
+  padding: .4em;
+}
+/* line 5, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger {
+  background: transparent url("../images/bg-icon__tips-wrapper-trigger-closed.png") no-repeat 0.4em 50%;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: .4em .4em .4em 1.25em;
+  text-transform: uppercase;
+}
+/* line 14, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger.opened {
+  background-image: url("../images/bg-icon__tips-wrapper-trigger-opened.png");
+}
+/* line 15, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger:link, .collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger:visited, .collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger:hover, .collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger:active {
+  text-decoration: none;
+}
+/* line 17, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper .tips {
+  margin: 0;
+  overflow: hidden;
+  padding: 5px;
+}
+/* line 21, ../sass/collapsible_filter_tips.scss */
+.collapsible-filter-tips-wrapper .tips.collapsed {
+  height: 0;
+  padding: 0;
+}

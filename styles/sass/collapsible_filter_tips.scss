@@ -1,0 +1,26 @@
+.collapsible-filter-tips-wrapper {
+  border: 1px solid #ddd;
+  margin: 1.25em 0;
+  padding: .4em;
+  .collapsible-filter-tips-wrapper-trigger {
+    background: transparent url('../images/bg-icon__tips-wrapper-trigger-closed.png') no-repeat .4em 50%;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: .4em .4em .4em 1.25em;
+    text-transform: uppercase;
+    &.opened { background-image: url('../images/bg-icon__tips-wrapper-trigger-opened.png'); }
+    &:link, &:visited, &:hover, &:active { text-decoration: none; }
+  }
+  .tips {
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    &.collapsed {
+      height: 0;
+      padding: 0;
+    }
+  }
+}
