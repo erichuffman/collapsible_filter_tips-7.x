@@ -7,7 +7,7 @@
        */
       $('.collapsible-filter-tips-wrapper .collapsible-filter-tips-wrapper-trigger').click(function(){
         $(this).toggleClass('opened');
-        $('.collapsible-filter-tips-wrapper .tips').toggleClass('collapsed');
+        $(this).next('ul.tips').toggleClass('collapsed');
         return false;
       });
         
